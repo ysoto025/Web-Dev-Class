@@ -1,0 +1,21 @@
+h2 {
+    color: rgb(43, 226, 198);
+}
+
+p {
+    color: burlywood;
+}
+
+body {
+    background-color: mediumvioletred;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Monospace;
+    letter-spacing: 20px;
+    font-weight: 100;
+    text-decoration: plum wavy underline;
+}
