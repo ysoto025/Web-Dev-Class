@@ -1,14 +1,59 @@
 h2 {
-    color: rgb(43, 226, 198);
+    color: burlywood;
+    font-family: Monospace;
+    text-align: center;
+}
+
+h3 {
+    color: burlywood;
+    font-family: Monospace;
+    font-size: 20px;
+}
+
+a {
+    color: burlywood;
+    font-family: Monospace;
+}
+
+.links {
+    color: burlywood;
+    font-family: Monospace;
+}
+
+.GaryFormsList {
+    color: burlywood;
+    font-family: Monospace;
+    text-align: center;
 }
 
 p {
     color: burlywood;
+    font-family: Monospace;
 }
 
-body {
-    background-color: rgb(81, 65, 141);
-    background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R1.png');
+.Gary1 {
+    margin-left: 50%;
+}
+
+.GaryGod {
+    text-align: left;
+}
+
+hr {
+    border-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R3.jpg');
+}
+
+.body {
+    background-size: cover;
+    background-color: midnightblue;
+    background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R2.png');
+
+}
+
+.body2 {
+    background-color: transparent;
+    position: center;
+    background-repeat: repeat;
 }
 
 h1 {
@@ -18,5 +63,17 @@ h1 {
     font-family: Monospace;
     letter-spacing: 20px;
     font-weight: 100;
-    text-decoration: plum wavy underline;
+    color: burlywood;
+}
+
+footer {
+    color: burlywood;
+    font-family: Monospace;
+}
+
+img {
+    width: 200px;
+    border-radius: 25px;
+    position: 50%;
+
 }
