@@ -7,8 +7,10 @@ body {
     background-color: rgb(81, 65, 141);
     background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R1.png');
     background-repeat: no-repeat;
-    background-size: stretch;
+    background-size: auto;
     color: burlywood;
+    width: 1000px;
+    margin: 0;
 
 }
 
