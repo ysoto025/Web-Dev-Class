@@ -2,6 +2,7 @@ h2 {
     color: burlywood;
     font-family: Monospace;
     text-align: center;
+    position: relative;
 }
 
 h3 {
@@ -9,21 +10,25 @@ h3 {
     font-family: Monospace;
     font-size: 20px;
     text-align: center;
+    position: relative;
 }
 
 .poem {
     text-align: center;
+    position: relative;
 }
 
 a {
     color: burlywood;
     font-family: Monospace;
+    position: relative;
 }
 
 .links {
     color: burlywood;
     font-family: Monospace;
     display: inline-block;
+    position: relative;
 }
 
 .GaryFormsList {
@@ -32,11 +37,13 @@ a {
     text-align: center;
     margin-left: 42%;
     margin-right: 50%;
+    position: relative;
 }
 
 p {
     color: burlywood;
     font-family: Monospace;
+    position: relative;
 }
 
 .imgs {
@@ -46,6 +53,12 @@ p {
     width: 360px;
     height: 360px;
     color: black;
+    position: relative;
+}
+
+.imgs:hover,
+.imgs2:hover {
+    opacity: 40%;
 }
 
 .imgs2 {
@@ -56,6 +69,7 @@ p {
     height: 360px;
     color: black;
     margin-left: 25%;
+    position: relative;
 }
 
 hr {
@@ -66,6 +80,7 @@ body {
     background-color: rgb(81, 65, 141);
     width: 1500px;
     height: 1500px;
+    position: relative;
 }
 
 .body2 {
@@ -73,6 +88,7 @@ body {
     background-color: brown;
     /*background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R1.png');*/
     margin-top: 1%;
+    position: relative;
 
 }
 
@@ -84,6 +100,7 @@ h1 {
     letter-spacing: 10px;
     font-weight: 100;
     color: burlywood;
+    position: relative;
 
 }
 
@@ -91,12 +108,14 @@ footer {
     color: burlywood;
     font-family: Monospace;
     background-color: blueviolet;
+    position: relative;
 }
 
 img {
     width: 200px;
     border-radius: 25px;
     position: 50%;
+    position: relative;
 
 }
 

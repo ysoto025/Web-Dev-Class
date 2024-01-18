@@ -3,6 +3,14 @@ button {
     border-color: coral;
 }
 
+button:hover {
+    background-color: brown;
+}
+
+button:active {
+    background-color: antiquewhite;
+}
+
 body {
     background-color: rgb(81, 65, 141);
     background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R1.png');
