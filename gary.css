@@ -3,6 +3,7 @@ h2 {
     font-family: Monospace;
     text-align: center;
     position: relative;
+    font-size: 20px;
 }
 
 h3 {
@@ -24,20 +25,22 @@ a {
     position: relative;
 }
 
-.links {
-    color: burlywood;
-    font-family: Monospace;
+nav {
     display: inline-block;
-    position: relative;
+
 }
 
-.GaryFormsList {
-    color: burlywood;
-    font-family: Monospace;
+.single-link li {
+    font-size: 20px;
     text-align: center;
-    margin-left: 42%;
-    margin-right: 50%;
-    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.single-link li img {
+    width: 30px;
+    margin-top: 15px;
 }
 
 p {
@@ -49,31 +52,23 @@ p {
 .imgs {
     display: inline-block;
     text-align: center;
-    margin-left: 25%;
-    width: 360px;
-    height: 360px;
+    margin: 20px;
+    width: 200px;
     color: black;
     position: relative;
 }
 
-.imgs:hover,
-.imgs2:hover {
-    opacity: 40%;
-}
-
-.imgs2 {
-    display: inline-block;
+.modes {
     text-align: center;
-    margin-left: 25%;
-    width: 360px;
-    height: 360px;
-    color: black;
-    margin-left: 25%;
-    position: relative;
+}
+
+.imgs:hover {
+    opacity: 80%;
+    transform: scale(1.2);
 }
 
 hr {
-    border: transparent;
+    border: solid burlywood;
 }
 
 body {
@@ -81,6 +76,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
+    margin: 0;
 }
 
 main {
@@ -91,12 +87,13 @@ main {
 }
 
 .body2 {
-    position: center;
-    background-color: brown;
-    /*background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/R1.png');*/
+    background-image: url('C:/Users/ysoto/OneDrive/Desktop/GaryPics/bgimg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-top: 1%;
     position: relative;
-
+    border: solid burlywood 5px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -118,14 +115,13 @@ footer {
     position: relative;
 }
 
-img {
+.modes img {
     width: 200px;
     border-radius: 25px;
     position: 50%;
     position: relative;
-
 }
 
-.header {
-    display: inline-block;
+hr {
+    border: transparent;
 }
